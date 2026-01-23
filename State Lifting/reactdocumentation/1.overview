@@ -1,0 +1,24 @@
+// PROPS = props parents to child transfer/pass hote h.
+
+mujhe y to pata h, ki parents se data child me pass hota h.
+
+1. But now need to pass a data child to parents y kaise hota h?
+
+2. ek or condition h, parents k pass multiple siblings h, dono me data pass kr diya.
+  >> now child A n koye state create kr liya and child B KO V USE STATE KO ACCESS krne ki need h, to child B v same state ko share krna chahta h.
+
+3. To ek yasa state jaha par do sibling ek state ko share krna chahte h, to kaise hoga?
+
+App.jsx = parent components 
+
+card.jsx   = child components
+
+4. Child to parent value bhejni h, to jo v logic hm child m lgte h, oo sb ham parent m bhej denge.
+**Parent** ki responsibiltiy h, ki oo state ko
+
+>> create kare
+>> mange kare
+>> change kare
+>> ek parent ke andr kitne v child ho sbhi ke data ko send kr skte h.
+>> sabhi child ke andr data sinck ho jayega.
+

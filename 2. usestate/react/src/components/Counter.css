@@ -1,0 +1,10 @@
+.Counter-container {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1.5rem;
+    border: 2px solid black;
+    border-radius: 4px;
+
+}

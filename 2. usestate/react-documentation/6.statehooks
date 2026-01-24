@@ -1,0 +1,37 @@
+// WHAT IS USESSTATE HOOKS?
+
+>> Lets say apne koye components create kr diya.
+   >> ab har components apne sath koye state rakh skta h, 
+       >>  
+
+** Example :- ke liye mere pass koye counter components h, to koye counter components h.
+    ** To counter components apne sath ek state maintain krke rakhega 
+       ** Jo ki hoga count.
+
+To counter ki y state count hone wali h, lets say kise aadmi ki state ky h, ki oo aadmi ke pass 1 millio daughter h, to oo uski state ho gyi.
+
+
+To waise hi y ek counter components h, isko 10br : "click" krna iski state ho gyi.
+
+To y state mangement k tarika kiske daura ho rha h, "USESSTATE'
+
+USESSTATE are provide 2 thiings (chiz).
+
+i) state k variable  = jiske andr tmhri state store hogi
+ii) state k function = jiske daura tm ise state ko update/change kr skte ho.
+
+
+
+counter k pass khud ki state honi chahiya 
+const Counter = () => {
+    count 
+
+
+state k nm maine rakh diya, jo ki ek to variable hota h, or ek function to ,
+[count, setCount]
+
+y do chize kisne return krti h(count, setCount), to mujhe USESSTATE Hooks n
+= useState 
+
+or tm intial value bata di ki count ko shuriwti value 0 h.
+

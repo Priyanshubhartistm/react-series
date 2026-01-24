@@ -1,0 +1,17 @@
+// Event handling = react has same events as HTML: Click,Change,Mouseover etc
+
+1. Adding Events = React events are written in camecasae syntax
+
+oneClick instead oneClick
+
+2. React events handlers are written inside curly braces
+
+onclick = {shoot}  instead of
+
+onclick = "shoot()"
+
+
+3. React
+<button onclick ="shoot () "> Takeshot!</button>
+
+

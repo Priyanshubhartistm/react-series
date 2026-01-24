@@ -32,9 +32,26 @@ else {
     )
 }
 
-2. ternary operator           =
+2. ternary operator           =  conditon ? true : false
 
 Example:-
+//i).
+function goal (props) {
+    const isGoal = props.isGoal;
+    return(
+        <>
+        {isGoal? <MadeGoal/> : <MissedGoal>}
+        </>
+    );
+}
+
+const root = reactDOM.createRoot(document.getElementById('root));
+
+root.render(<Goal is great = {false}/>);
+
+o/p = missed
+
+//ii).
 {isLoggedIn ? <LogoutBtn /> : <LoginBtn />}
 
 

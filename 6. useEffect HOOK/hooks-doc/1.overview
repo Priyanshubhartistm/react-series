@@ -1,0 +1,35 @@
+// Useeffect Hooks      = yaha p phe se hi prefix m "use" dikh raha h. isko dekhkr hi samjh aa gya , ki y ek react hook h, 
+jise mai side effect generate kr skta hu.
+
+   >> Side effect       = means ek late sone se immuane system khrb hota h, y v ek side effect h.
+      >> yase kise v xyz chiz ki wajh se apko side effect ho skta h.
+
+
+1. Useeffect ek yasa React Hooks h, jiske daura aap sideeffect likh skte h. ek trh se
+
+EXAMPLE:- 
+Jaise hi mera dom k contant load ho jayega, waise hi mai db k sath connection bana liya jaye simple.
+
+  >> TO DOM content load hona ek trh k event ho gya
+  >> Or DB(Dialog Box) k sath ek trh k connection bana ise event k upr "sideeffect" ane laga.
+
+2. jo apka project h, means jo web app kavi v render(1st render/any render) hota h, to uske sath m mujhe api  call krna h.
+  >> To yaha pe render hona , ek "event" aap man skte h, or use event
+    >> k corsponding apne triger laga diya ki har render hone pe mujhe "api"
+     call krni h, to
+       >> To API call krn ek trh k, sideeffect ho gya.
+
+
+3. To ise sideeffect ko create/handle/generate krn kise kam h, "Useeffect Hooks" k kam h.
+  >> Jo v logic hook hoga, db k sath connection bana y fir, "fetch API" call krne k y sara k sara kam logic ise 'Hooks' K ANDR APP RIGHT DOWN KRNE WALE H.
+
+example :-
+COUNTER app m jo set variable th oo update hota tah, to lets say iske upr sideeffect laga diya 
+   >> count variable jaise hi update hoga to waha mai alert/db/toast dikhna chahta hu , to 
+
+i) count k update hona       = event
+II) or y alert/db/toast      = y sb dikhna sideeffect , to isko generta krne k logic hamra react hook k andr hoga.
+
+a) Fetch api call krne k logic
+b) db connect
+c) alert/db/toast isko generate krne k logic 

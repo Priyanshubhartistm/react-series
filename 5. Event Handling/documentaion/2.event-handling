@@ -1,0 +1,31 @@
+// Event handling = react has same events as HTML: Click,Change,Mouseover etc
+
+1. Adding Events = React events are written in camecasae syntax
+
+oneClick instead oneClick
+
+2. React events handlers are written inside curly braces
+
+onclick = {shoot}  instead of
+
+onclick = "shoot()"
+
+
+3. React
+<button onclick ="shoot () "> Takeshot!</button>
+
+
+4. hamesa ek alg tarike se function k refernce pass karo
+
+i)  Don't right this type  = isko immediate invoke bolte h, ise type se apko ni likhn h, on the spot ise apka jo v code h, oo render means dikhega.
+
+     <button onClick={alert("button click me")}>Click me</button>
+
+
+
+ii) Do right like that    = jab mera event aye tab isko invoke krn h,
+      <button onClick={() => alert("button click me")}>Click me</button>
+
+
+hamesa function k refence pass kro rather than immediate invoke.
+alert("button click me")

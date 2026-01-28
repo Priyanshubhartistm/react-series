@@ -1,11 +1,11 @@
-// Useeffect Hooks      = yaha p phe se hi prefix m "use" dikh raha h. isko dekhkr hi samjh aa gya , ki y ek react hook h, 
+// Useeffect Hooks      = yaha p phle se hi prefix m "use" dikh raha h. isko dekhkr hi samjh aa gya , ki y ek react hook h, 
 jise mai side effect generate kr skta hu.
 
    >> Side effect       = means ek late sone se immuane system khrb hota h, y v ek side effect h.
       >> yase kise v xyz chiz ki wajh se apko side effect ho skta h.
 
 
-1. Useeffect ek yasa React Hooks h, jiske daura aap sideeffect likh skte h. ek trh se
+1. Useeffect ek yasa React Hooks h, jiske daura aap side-effect likh skte h. ek trh se
 
 EXAMPLE:- 
 Jaise hi mera dom k contant load ho jayega, waise hi mai db k sath connection bana liya jaye simple.

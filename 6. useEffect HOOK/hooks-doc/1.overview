@@ -33,3 +33,6 @@ II) or y alert/db/toast      = y sb dikhna sideeffect , to isko generta krne k l
 a) Fetch api call krne k logic
 b) db connect
 c) alert/db/toast isko generate krne k logic 
+
+To kise particular event k happen hone par aap koye, logic ko run krwana chahte h, or use logic ko aap sideeffect kah rhe h.
+

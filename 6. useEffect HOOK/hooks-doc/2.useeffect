@@ -1,0 +1,39 @@
+// ek chiz hamse yad rakhan h, jab v ham Useeffect 
+hook k use krenge to usko hmesa components k top par write down krn h.
+
+
+
+1. first = side effect function        = to y logic h, ki ham side effect k roop m ky logic perform krna chahte h.
+     useEffect(() => {                     >> lets say mai fetch api bana /db connection bana/kch console krn/ kch alert krna chahti hu
+     first
+
+2. second = cleanup function            = aap koye cleaning task krna chahte h, y memory leak s bachna chahte h, to 
+     return () => {                         >> y fir apne jis components par event listner add kiya tha, oo components (hat) gya, technical lang. m unmount ho gya      second
+    }
+
+3. third = dependency array ,comma separated dep list             = kch chze mention krte h, like entities k basis par oo side effect call or run hota h.
+
+
+    }, [third])             = , [count])     = count maine apna state variable create kiya tha, and count ki value kavi v update hogi , to mera side effect k logic on the spot kavi v run ho jayega.
+
+
+
+>>  Mujhe 2 trh k Useeffect likhne aa gya:-
+1. phla jo har render pa chalega
+useEffect(() => {
+    alert("I wil never run on each render")
+  })
+
+2. dusra jo sirf ek render p chalega
+useEffect(() => {
+    alert("I will run only once on first render")
+
+  }, [])
+
+3. count update hone se phle render hone k bad chalta h,
+
+useEffect(() => {
+    alert(`Count has changed to ${count}`);
+  }, [count])
+
+4. 
